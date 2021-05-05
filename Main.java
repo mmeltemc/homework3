@@ -5,15 +5,15 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Student student = new Student();
-		student.setFirstName("Müjgan Meltem Çaðla");
-		student.setLastName("Çullu");
+		student.setFirstName("Mujgan Meltem Cagla");
+		student.setLastName("Cullu");
 		student.seteMail("mujganmeltemcaglacullu@gmail.com");
 		student.setPassword("123");
 		student.setLessonLearned("Java");
-		student.setInstructorName("Engin Demiroð");
+		student.setInstructorName("Engin Demirog");
 		student.setPercentageOfCompletion(30);
 		student.setId(1);
-		System.out.println(student.getUserName());
+		System.out.println("Kullanýcý adý '"+ student.getUserName() + "' olarak sistem tarafýndan tanýmlandý");
 		StudentManager studentManager = new StudentManager();
 		
 		
